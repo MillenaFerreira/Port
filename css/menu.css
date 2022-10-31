@@ -1,0 +1,29 @@
+.menu{
+    display: flex;
+    gap: 72px;
+    font-size: 1.25rem;
+}
+
+.menu li{
+    border-bottom: 4px solid transparent;
+    transition: 0.3s;
+}
+
+.menu li:hover{
+    border-color: var(--primary-color);
+}
+
+/*TABLET*/
+@media (max-width:960px){
+
+    .menu{
+        display: none;
+    }
+    
+}
+
+/*MOBILE*/  
+@media (max-width:640px){
+
+
+}
