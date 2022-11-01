@@ -81,7 +81,10 @@ footer{
 
 @media (max-width: 460px){
     .sobre-mim{
-        height: 1500px;
+        height: 2070px;
+    }
+    footer{
+        font-size: 0.5rem;
     }
     
 }
