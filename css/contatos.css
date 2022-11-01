@@ -72,6 +72,43 @@
 
 /*MOBILE*/  
 @media (max-width:640px){
-
-
+    .contato{
+        display: grid;
+        grid-template-areas: 
+        
+        " title title title"
+        " contato contato contato"
+        "social social social"
+        "link link link"
+        ;
+  
+    }
+    .contato-title{
+        display: none;
+    }
+    .contato-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -118px;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+    }
+    .social-container li a {
+        font-size: 2rem;
+    }
+    .link-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: -100px;
+    }
 }

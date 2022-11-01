@@ -7,3 +7,19 @@
     -webkit-background-clip: text;
     color: transparent;
 }
+
+
+
+/*MOBILE*/  
+@media (max-width:640px){
+
+    .section-title{    
+        font-size: clamp(2rem, 18vw, 13rem);
+    }
+
+}
+
+
+
+
+

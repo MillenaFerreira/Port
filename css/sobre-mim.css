@@ -87,5 +87,14 @@
 /*MOBILE*/  
 @media (max-width:640px){
 
-
+    .description{
+        padding-left: 70px;
+    }
+    .skills__title{
+        display: flex;
+        justify-content: center;
+    }
+    .skills__icon{
+        margin-left: 110px;
+    }
 }

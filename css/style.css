@@ -56,16 +56,24 @@ footer{
         height: 1200px;
     }
     .projetos{
-        height: 3119px;
+        height: 3200px;
     }
-    .contatos{
-        height: 900px;
+    .contato{
+        height: 1000px;
     }
     
 }
 
 /*MOBILE*/  
 @media (max-width:640px){
-
+    .sobre-mim{
+        height: 1350px;
+    }
+    .projetos{
+        height: 1200px;
+    }
+    .contato h2{
+        margin-top: 450px;
+    }
 
 }

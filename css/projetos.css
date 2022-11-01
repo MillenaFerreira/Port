@@ -47,5 +47,8 @@
 /*MOBILE*/  
 @media (max-width:640px){
 
-
+    .card-container a img{
+        width: 300px;
+        height: 187.5px;
+    }
 }

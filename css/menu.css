@@ -1,3 +1,6 @@
+.menu-burger{
+    display: none;
+}
 .menu{
     display: flex;
     gap: 72px;
@@ -19,7 +22,7 @@
     .menu{
         display: none;
     }
-    
+   
 }
 
 /*MOBILE*/  
