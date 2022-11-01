@@ -67,13 +67,21 @@ footer{
 /*MOBILE*/  
 @media (max-width:640px){
     .sobre-mim{
-        height: 1350px;
+        height: 1400px;
     }
     .projetos{
-        height: 1200px;
+        height: 1700px;
     }
-    .contato h2{
-        margin-top: 450px;
+    .contato{
+        padding-bottom: 1100px;
+        height: 1000px;
     }
 
+}
+
+@media (max-width: 460px){
+    .sobre-mim{
+        height: 1500px;
+    }
+    
 }

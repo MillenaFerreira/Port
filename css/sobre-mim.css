@@ -73,9 +73,6 @@
         padding-left: 54.5px;
         
     }
-    .skills__title{
-        padding-left: 54.5px;
-    }
     .skills__icon{
         display: flex;
         flex-direction: column;
@@ -97,4 +94,11 @@
     .skills__icon{
         margin-left: 110px;
     }
+}
+
+@media (max-width: 460px){
+    .skills__icon{
+        margin-left: 50px;
+    }
+    
 }
